@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Holtwood+One+SC&family=Rubik+Distressed&family=Sancreek&display=swap');
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+  
+    background-color: #f5e4bf;
+    color: black;;
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+body {padding: 1rem 0.5rem;} 
+    
+  .less-padding {padding: 1rem 0.5rem;}
+  
+  .bold {font-weight: 700;}
+  .italic {font-style: italic;
+  font-size: 105%;}
+  
+  h1, h2, h3, h4, h5 { font-weight: 800;}
+  
+  
+  h1, h2,  h3, h4, h5 {  
+    margin-bottom: 0.1em; 
+  font-family: 'Sancreek', serif;}
+
+  .maintitle {margin: auto;
+  font-size: 250%;
+text-align: center;
+}
+
+  .cattitle {color:#813631;
+  text-align: center;
+margin-bottom: -0.4rem;
+margin-top: 2.2rem;}
+
+  .cattitle3 {
+    color:#813631;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 4rem;
+  text-decoration: underline;
+  }
+
+  .cattitle3 a:hover {color: black;}
+
+  .program-list {list-style-type: none;}
+  .program-list li {
+    margin-bottom: 0.9rem;
+    font-family: 'Averia Serif Libre';
+    margin-left: -1.5rem;
+    text-align: center;
+  }
+
+  .legal {
+    font-size: 90%;
+    text-align: center;
+  }
+
+  .menu-list {list-style-type: none;}
+  .menu-list li {
+   
+      margin-bottom: 0.5rem;
+      font-family: 'Averia Serif Libre';
+      margin-left: -1.5rem;
+      text-align: center;
+  
+  }
+
+  a {color: #813631}
+  
+  .listlink {text-decoration: underline;
+  color: black;}
+
+  .listlink:hover {text-decoration: underline;
+  color: #813631;}
+
+  /* Unterseiten */
+
+ .backlink {margin-top: 2rem;}
+
+ .abstand {margin-bottom: 1.5rem;}
+
+.mainpic {width: 100%;}
+
+.pokerhand, .galgen {width: 95%;
+margin: auto;}
+
+.small-list li {margin-bottom: 0.5rem;}
+
+
+/* Filme */
+
+.film-info td { padding: 0.5rem 1.8rem 0.5rem 0;}
+.film-info li {margin-left: -1.5rem;}
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+
+
+.zweier-grid {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-gap: 5%;
+}
+
+.mainpic {width: 94%;}
+
+} /* End Queries 900px*/
+
+
+@media screen and (min-width: 1600px) {
+  .wrapper { width: 80%;
+    margin: auto;}
+}
+
+
+@media screen and (max-width: 500px) { 
+
+  .film-info td {
+    padding: 0.5rem 1rem 0.5rem 0;
+    font-size: 0.9rem;
+  }
+
+
+} /*End 500px*/
